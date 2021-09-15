@@ -22,7 +22,7 @@
 
 <img width="1440" alt="7  Top Starting and Ending Locations" src="https://user-images.githubusercontent.com/84211948/133383991-017f5068-f1be-4908-9596-601eb0689f56.png">
 
-<img width="1440" alt="8  Average Trip Duration" src="https://user-images.githubusercontent.com/84211948/133384025-6e56fc77-9624-415d-9efe-a878475c3fa2.png">
+<img width="1440" alt="8  Average Trip Duration" src="https://user-images.githubusercontent.com/84211948/133384688-78bac614-f601-48cb-99ac-01cea5a19a62.png">
 
 ## III. Summary
 
