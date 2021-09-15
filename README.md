@@ -1,4 +1,4 @@
-# Citi Bike Analysis with Tableau
+# CitiBike Analysis with Tableau
 
 ## I. Project Overview
 
