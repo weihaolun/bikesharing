@@ -12,6 +12,23 @@ For the first step, we have decided to figure out how the Bikeshare business act
 
 ### Purposes
 
+The purpose of this analysis is to get a deep understanding of NYC Citi Bike data and created a solid business proposal to convince investors that a Bikesharing program in Des Moines.
+
+For this analysis, I have used Pandas to clean the data, then created set of visualizations story using Tableau.
+
+**The analysis includes:**
+  1.	The length of time that bikes are checked out for all riders and genders.
+  2.	The length of time that bikes are checked out for each gender.
+  3.	The number of bike trips for all riders and genders for each hour of each day of the week.
+  4.	The number of bike trips for each type of gender for each day of the week.
+  5.	The number of bike trips for each type of user and gender for each day of the week.
+  6.	Top starting and ending stations for all users on maps.
+  7.	Average trip duration by ages.
+
+**In Summary section, I will also provide two further analysis recommendations.**
+1.	Top 20 stations’ ID and names.
+2.	Starting and ending stations by user type.
+
 ## II. Results
 
 <img width="1440" alt="1  Overview" src="https://user-images.githubusercontent.com/84211948/133383868-2ae4188e-9276-4709-bd12-01b2966c20c5.png">
