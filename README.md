@@ -4,6 +4,12 @@
 
 ### Background
 
+Kate traveled to NYC last summer and enjoyed riding Citi Bike everywhere, which allowed her to really get to know the city and interact with the people who live there and who are using bikes for their communities. 
+
+A gem of an idea starts to form in her mind. What if she could start a similar Bike Share business for her hometown of Des Moines, Iowa. I have been helping Kate to brainstorm, and with support from a potential investor who might be interested in providing seed funding to explore a bike share program in Des Moines.
+
+For the first step, we have decided to figure out how the Bikeshare business actually works in New York City. From there, we will have a proposal on how it might work in Des Moines. Since I have data analysis experience, I will conduct a thorough analysis on Citi Bike data from August 2019 and visualize the result using Tableau. 
+
 ### Purposes
 
 ## II. Results
