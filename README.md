@@ -1,6 +1,6 @@
 # CitiBike Analysis with Tableau
 
-[Link to Dashboard](https://public.tableau.com/views/bikesharing-challenge_16317893427150/CheckoutTimesforUsers?:language=en-US&:display_count=n&:origin=viz_share_link)
+[Link to Dashboard](https://public.tableau.com/views/bikesharing-challenge_16317893427150/1_Overview?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## I. Project Overview
 
