@@ -99,7 +99,17 @@ To keep the sufficiency of the analysis, we should filter out invalid data and o
 
 <img width="1440" alt="8  Average Trip Duration" src="https://user-images.githubusercontent.com/84211948/133384688-78bac614-f601-48cb-99ac-01cea5a19a62.png">
 
-## III. Summary--Recommendations for further analysis
+## III. Summary
+
+Main points to summarize the visualized analysis above:
+1.	Male users and subscribers are the main userbase.
+2.	Majority rides take less than one hour, and young age people tend to ride longer.
+There are more rides during rush hours on weekdays, then followed by weekends daytime.  
+3.	Most rides are taken in city centers.
+
+In conclusion, for Kate to start a bike sharing business in Des Moines, she should first build stations in the busiest areas of the city especially business districts where contains more office buildings to get a good start. Then, she can spread the business by building more stations. The busier the area is, the denser and larger the stations should be. Maintenance should be scheduled outside of busy hours, such as after 12am. For marketing, Kate can focus on male young age population and created effective marketing strategies to attract subscribers. Overall, the potential of bike sharing business in Des Moines is very strong.
+
+### Recommendations for further analysis
 
 **1. Top 20 Stations IDs**
 
