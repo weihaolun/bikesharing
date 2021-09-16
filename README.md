@@ -14,7 +14,7 @@ For the first step, we have decided to figure out how the bikesharing business a
 
 The purpose of this analysis is to get a deep understanding of NYC CitiBike data so that Kate can create a solid business proposal to convince investors that the bikesharing program in Des Moines will success.
 
-In this analysis, I first used Pandas to clean the data, then created a set of visualizations story using Tableau.
+In this analysis, I first used Pandas to clean the data, then created a visualized story using Tableau.
 
 **The analysis includes:**
   1.	The length of time that bikes are checked out for all riders and genders.
