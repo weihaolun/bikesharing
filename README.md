@@ -39,7 +39,7 @@ This page shows an overview of August 2019 CitiBike data. Within one month, ther
 
 **2. Checkout Times for Users**
 
-The graph shows the distribution of checkout times which are the durations between checkin and checkout of bike ridings. The peak is at 5-6 minutes, which indicates that more than 140K trip durations are as short as 5-6 minutes. Most rides are checked out within 50-40 minutes and remaining small number of rides exceed one hour. We can make two conclusions based to this graph:
+The graph shows the distribution of checkout times which are the durations between checkin and checkout of bike ridings. The peak is at 5-6 minutes, which indicates that more than 140K trip durations are as short as 5-6 minutes. Most rides are checked out within 50-40 minutes and remaining small number of rides exceed one hour. We can make two conclusions based on this graph:
 1.	A large number of stations are very close to each other, within distances of minutes of bike ridings.
 2.	Many users prefer to ride bikes when the distances are short, very likely that too short to take public transportations but good to ride bikes to avoid walking in hot summer.
 
@@ -59,7 +59,7 @@ Conclusions from this dashboard:
 1.	Weekday morning rush hours are peak times for CitiBike ridings. A variety of reasons can explain this trend, such as that many users ride bikes to get to work to avoid possible delays by public transportation, or just for keeping a healthy habit.
 2.	Weekday afternoon rush hours are also peak times for CitiBike usage. Bike riding is a great way for city residents to surpass rush hour traffics.
 3.	It is very interesting to see that Wednesday afternoon rush hour is an exception and is worth to research the cause behind. 
-4.	In addition, Friday’s afternoon usage of CitiBike starts as much earlier, as many workplaces allow employees to get off work earlier on Fridays. Friday’s morning / afternoon rush hours are still busy but not as much as the other days. 
+4.	In addition, Friday afternoon's usage of CitiBike starts much earlier, as many offices allow employees to get off work earlier on Fridays. Friday’s morning / afternoon rush hours are still busy but not as much as the other weekdays. 
 5.	For weekends, more bike rides are taken between 10am and 5pm. People tend to get up later on weekends and ride CitiBikes to enjoy the city on weekends. 
 
 <img width="1440" alt="4  Trips by Weekday for Each Hour" src="https://user-images.githubusercontent.com/84211948/133383928-d1266f38-4223-4765-a798-b897fffe2d29.png">
@@ -78,7 +78,7 @@ This dashboard includes a heatmap on the number of bike rides by both gender and
 
 As mentioned above, unsubscribed customers tend to ride more on weekends and subscribers ride more on weekdays. This is because most users who take bike rides on weekdays would prefer subscription programs for regular usage and potential promotions. People who don’t take bike rides on weekdays may just prefer to ride bikes on weekends for exercises or city exploration occasionally. Another possible reason is that part of unsubscribed users are just temporary tourists from other cities and areas. These customers are very unlike to be attracted by subscription.
 
-Another interesting point is that all subscribers have their gender defined in the database. The company does a great job on collection information from subscribe users, and may be necessary to enhance data collection for unsubscribed users.
+Another interesting point is that all subscribers have their gender defined in the database. The company does a great job on collection information from subscribe users, and may be necessary to enhance data collection from unsubscribed users.
 
 <img width="1440" alt="6  User Trips by Gender (Usertype:Weekday)" src="https://user-images.githubusercontent.com/84211948/133383979-ddc48782-8fb7-4af6-9785-0d5204dba9b8.png">
 
@@ -88,13 +88,13 @@ The maps below indicate the most popular starting and ending stations in the cit
 
 Several popular areas are: Midtown area in both West and East along Broadway, Midtown West along Hudson River, Greenwich Village in Lower West, Lower Manhattan along Hudson River, Lower Manhattan, and around Central Park.These areas are full of businesses, tourist attractions, schools, residential buildings and public transportation hubs, so there are more CitiBike stations available in these areas. 
 
-Upper Manhattan and Queens are less popular. Population distributions in these areas are less dense than in other areas as well. Especially in Queens, more people would choose public transportation due to the longer distance.
+Upper Manhattan and Queens stations are less popular. Population distributions in these areas are less dense than in other areas as well. Especially in Queens, more people would choose public transportation due to the longer distance.
 
 <img width="1440" alt="7  Top Starting and Ending Locations" src="https://user-images.githubusercontent.com/84211948/133383991-017f5068-f1be-4908-9596-601eb0689f56.png">
 
 **8. Average Trip Duration**
 
-This dashboard includes two area graphs of the average duration of bike rides by age. The top chart is generated from the raw data, where we can see the birth year starts as early as 1885. By common sense, we can conclude that this set of data must contain some invalid data. Besides unrealistic data, the birth year of 1969 also stands out as an outlier. It could be possible that 50-year-old users in average rides for the longest duration as 50 is the age when people start to pay more attention to health. However, it would be a very extreme case and is hard to determine the validity. The cause to the  invalidity might be that users, especially unsubscribed users input a random birth year during registration as many people consider age as an important privacy.
+This dashboard includes two area graphs of the average duration of bike rides by age. The top chart is generated from the raw data, where we can see the birth year starts as early as 1885. By common sense, we can conclude that this set of data must contain some invalid information. Besides unrealistic data, the birth year of 1969 also stands out as an outlier. It could be possible that 50-year-old users in average rides for the longest duration as 50 is the age when people start to pay more attention to health. However, it would be a very extreme case and is hard to determine the validity. The cause to the invalidity might be that users, especially unsubscribed users input a random birth year during registration as many people consider age as privacy.
 
 To keep the sufficiency of the analysis, we should filter out invalid data and outlier for a more accurate analysis. I chose birth year range from 1945 to 2002 and removed 1969. We can see a more consistent data from the adjusted area graph below. In this chart, we see a significant increase in trip duration after 1994. Therefore, users at 25-year-old and younger have longer trip durations. 
 
@@ -102,7 +102,7 @@ To keep the sufficiency of the analysis, we should filter out invalid data and o
 
 ## III. Summary
 
-Main points to summarize the visualized analysis above:
+Several points to summarize the visualized analysis above:
 1.	Male users and subscribers are the main userbase.
 2.	Majority rides take less than one hour, and young aged people tend to ride longer in time.
 3.  There are more rides during rush hours on weekdays, then followed by weekends daytime.  
@@ -120,7 +120,7 @@ The first recommendation for further analysis is to conclude the top 20 starting
 
 **2. Stations by Usertype**
 
-The second recommendation is to generate starting and ending station maps with markers colored by user type. As shown below, the legend on top right indicates that blue markers represents customers and red markers represents subscribers. However, on the maps, blue marks actually indicate stations used by both subscribers and customers because two colors overlaps on each other, while red markers indicate stations used by subscribers only. Bronx area has a number of starting and endings stations used by subscribers only; Jersey City area has several ending stations used by subscribers only. 
+The second recommendation is to generate starting and ending station maps with markers colored by user type. As shown below, the legend on top right indicates that blue markers represents customers and red markers represents subscribers. However, on the maps, blue marks actually indicate stations used by both subscribers and customers because the two colors overlap on each other, while red markers indicate stations used by subscribers only. Bronx area has a number of starting and endings stations used by subscribers only; Jersey City area has several ending stations used by subscribers only. 
 
 The purpose of this analysis is to explore potential marketing strategies based on user type. There are two popular attractions around the Bronx area: New York Botanical Garden and Bronx Zoo. It’s a convenient option to ride a bike from public transportation hub to the attractions The marketing team can market the advantage of CitiBike to tourists to increase unsubscribed userbase. For Jersey City, many people work in Manhattan and ride bikes to return home in Jersey City. It only takes 25 minutes to bike home from Lower Manhattan and approximately 45 minutes from Upper West Manhattan. The marketing team can utilize this type of usage to attract more subscribers in Jersey City area. 
 
