@@ -34,6 +34,8 @@ For this analysis, I have used Pandas to clean the data, then created set of vis
 **1. Data Overview**
 <img width="1440" alt="1  Overview" src="https://user-images.githubusercontent.com/84211948/133383868-2ae4188e-9276-4709-bd12-01b2966c20c5.png">
 
+The is page shows an overview of August 2019 CitiBike data. Within one month, there are 2,344,224 rides, 69,037,166,989 bikes available in the city, and 2,344,135 stations in operation. Among all the rides, there are 81.07% taken by loyalty program subscriber, 18.93% by regular customers; 65.28% taken by males, 25.10% by females and 9.62% with undefined gender. From the overview we can conclude that there are 78,140 rides taken per day in average, and male subscribers are the main customers.
+
 **2. Checkout Times for Users**
 <img width="1440" alt="2  Checkout Times for Users" src="https://user-images.githubusercontent.com/84211948/133383887-97aca310-6464-4601-91d1-9167be4d39ad.png">
 
