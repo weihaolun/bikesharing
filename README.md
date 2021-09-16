@@ -92,6 +92,11 @@ Upper Manhattan and Queens are less popular. Population distributions in these a
 <img width="1440" alt="7  Top Starting and Ending Locations" src="https://user-images.githubusercontent.com/84211948/133383991-017f5068-f1be-4908-9596-601eb0689f56.png">
 
 **8. Average Trip Duration**
+
+This page includes two area charts of the average duration of bike rides by age. The top chart is generated from the raw data, where we can see the birth year as early as 1885. By common sense, we can conclude that this set of data must contain invalid data. Besides unrealistic data, the birth year of 1969 also stands out as an outlier. It is possible that 50-year-old users in average rides for the longest duration as 50 an age that people start to pay more attention to health. However, it could be a very extreme case and is hard to determine the validity. The cause to the invalid data might be that users, especially unsubscribed users input a random birth year while registering as many people consider age as a privacy.
+
+To keep the sufficiency of the analysis, we should filter out invalid data and outlier for a more accurate analysis. I chose birth year range from 1945 to 2002 and removed 1969. We can see a more consistent data from the adjusted area chart below. In this chart, we see a significant increase in trip duration after 1994. Therefore, users at 25-year-old and below have longer trip durations. 
+
 <img width="1440" alt="8  Average Trip Duration" src="https://user-images.githubusercontent.com/84211948/133384688-78bac614-f601-48cb-99ac-01cea5a19a62.png">
 
 ## III. Summary
