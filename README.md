@@ -82,6 +82,13 @@ Another interesting point is that all subscribers have their gender defined in t
 <img width="1440" alt="6  User Trips by Gender (Usertype:Weekday)" src="https://user-images.githubusercontent.com/84211948/133383979-ddc48782-8fb7-4af6-9785-0d5204dba9b8.png">
 
 **7. Top Starting and Ending Locations Map**
+
+The maps below indicate the most popular starting and ending stations in the city. The markers are colored and sized by ride counts. We can easily see from the visualization that the distributions of markers have the same pattern on the two maps. 
+
+Several popular areas are Midtown area in both west and east along Broadway, Midtown West along Hudson River, Greenwich Village in Lower West, Lower Manhattan along Hudson River, Lower Manhattan, and around Central Park.These areas are full of businesses, tourist attractions, schools, residential buildings and public transportation hubs, so that there are more CitiBike stations available in these areas. 
+
+Upper Manhattan and Queens are less popular. Population distributions in these areas are less dense than the others as well. Especially in Queens, more people would choose public transportation due to the longer distances to city centers.
+
 <img width="1440" alt="7  Top Starting and Ending Locations" src="https://user-images.githubusercontent.com/84211948/133383991-017f5068-f1be-4908-9596-601eb0689f56.png">
 
 **8. Average Trip Duration**
