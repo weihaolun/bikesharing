@@ -46,6 +46,9 @@ The graph shows the distribution of checkout times, which are the trip durations
 <img width="1440" alt="2  Checkout Times for Users" src="https://user-images.githubusercontent.com/84211948/133383887-97aca310-6464-4601-91d1-9167be4d39ad.png">
 
 **3. Checkout Times by Gender**
+
+Similar to the previous graph, this page also shows the checkout times, while also divided by genders. The gender breakdown is included on this board as a reference. The trip duration trend for each gender has similar pattern to the overall users’: peak at 5-6 minutes and mostly within 50 minutes. At the same time, we can conclude that the distribution of number of rides among genders also follows the gender breakdown.
+
 <img width="1440" alt="3  Checkout Times by Gender" src="https://user-images.githubusercontent.com/84211948/133383904-ef5057d4-2f1d-444d-9263-ae6883f06f02.png">
 
 **4. Trips by Weekday for Each Hour**
