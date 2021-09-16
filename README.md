@@ -99,10 +99,18 @@ To keep the sufficiency of the analysis, we should filter out invalid data and o
 
 <img width="1440" alt="8  Average Trip Duration" src="https://user-images.githubusercontent.com/84211948/133384688-78bac614-f601-48cb-99ac-01cea5a19a62.png">
 
-## III. Summary
+## III. Summary--Recommendations for further analysis
 
 **1. Top 20 Stations IDs**
+
+The first recommendation for further analysis is to conclude the top 20 starting stations and top 20 ending stations as shown in the dashboard below. The x-axis shows the station ID, and the tooltip includes the station name. The purpose of this analysis is for the use of potential expansion plans. For top starting stations, CitiBike may consider adding more bikes, and for top ending stations, CitiBike can consider expanding the station to hold more bikes.
+
 <img width="1440" alt="9  Extra 1 Top 20 Stations" src="https://user-images.githubusercontent.com/84211948/133384057-986392f0-688f-407f-a3ef-2844e05e5516.png">
 
 **2. Stations by Usertype**
+
+The second recommendation is to generate starting and ending station maps with markers colored by user type. As shown below, the legend on top right indicates that blue represents customers and red represents subscribers. On the maps, blue marks on the map actually indicates stations used by both subscribers and customers because two colors overlap on each other, while red markers indicate stations used by subscribers only. Bronx area has many starting and endings stations used by subscribers only; Jersey City area has several ending stations used by subscribers only. 
+
+The purpose of this analysis is to explore potential marketing strategies. There are two popular attractions around the station area in Bronx: New York Botanical Garden and Bronx Zoo. It’s a convenient option to ride the bike from public transportation hub to the attractions The marketing team can market the advantage of CitiBike to tourist to increase unsubscribed users. For Jersey City, many people work in Manhattan and ride bikes to return home in Jersey City. It only takes 25 minutes to bike home from Lower Manhattan and approximately 45 minutes from Upper West Manhattan. The marketing team can utilize this type of usage to attract more subscriber in Jersey City area. 
+
 <img width="1440" alt="10  Extra 2 Stations by Usertype" src="https://user-images.githubusercontent.com/84211948/133384074-ab309328-a305-4888-85b7-a616503a542a.png">
