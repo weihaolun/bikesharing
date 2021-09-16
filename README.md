@@ -52,12 +52,33 @@ Similar to the previous graph, this page also shows the checkout times, while al
 <img width="1440" alt="3  Checkout Times by Gender" src="https://user-images.githubusercontent.com/84211948/133383904-ef5057d4-2f1d-444d-9263-ae6883f06f02.png">
 
 **4. Trips by Weekday for Each Hour**
+
+The dashboard below contains two graphs. The top graph is a heatmap that shows the number of bike trips by weekday for each hour of the day. The bottom graph is a bar chart to reference average peak hours during a day.
+Conclusions from this dashboard:
+1.	Weekday morning rush hours are peak times for CitiBike ridings. A variety reason can explain this trend, such as many users ride bikes to get to work to avoid possible delays by public transportation, or just for a healthy habit.
+2.	Weekday afternoon rush hours are also peak times for CitiBike usage. Bike riding is a great way for city residents to surpass rush hour traffics.
+3.	It is very interesting to see that Wednesday is an exception and is worth to research the cause behind. 
+4.	In addition, Friday’s afternoon usage of CitiBike starts as much earlier, as many workplaces allow employees to get off earlier on Fridays. Friday’s morning / afternoon rush hours are still busy but not as much as the other days. 
+5.	For weekends, more bike rides are taken between 10am and 5pm. People tend to get up later than on weekdays and ride CitiBikes to enjoy the city on weekends. 
+
 <img width="1440" alt="4  Trips by Weekday for Each Hour" src="https://user-images.githubusercontent.com/84211948/133383928-d1266f38-4223-4765-a798-b897fffe2d29.png">
 
 **5. Trips by Gender (Weekday/Hour)**
+
+This heatmap shows the number of bike trips by genders for each hour of each day of the week. The usages trends of male and female users are the same as the previous analysis, and male and female share the same pattern. Except that the male count of rides is much larger than of female count because of the gender breakdown. The pie char of gender breakdown is included on the right side on the dashboard again for reference.  
+
+For undefined gender section, we see a pattern that more users take bike rides on weekends. This fact will be analyzed in the following page.
+
 <img width="1440" alt="5  Trips by Gender (Weekday:Hour)" src="https://user-images.githubusercontent.com/84211948/133383953-1f59e977-344b-4184-8f23-4b25bc0836fd.png">
 
 **6. User Trips by Gender (Usertype/Weekday)**
+
+This dashboard includes a heatmap on the number of bike trips by both genders and user types for each day of the week, and both gender and user type breakdown pie chart as references.
+
+As mentioned above, unsubscribed customers appear to a slightly increased usage on weekends. This is because most users who take bike rides on weekdays would prefer subscriptions for regular usage and potential promotions. People who don’t take bike rides on weekdays may just prefer to ride bikes on weekends for exercises or for city exploration occasionally. Another possible reason is that these users are just temporary tourists from other cities and areas. These customers are very unlike to be attracted by subscription.
+
+Another interesting point is that all subscribers have their gender defined in the database. This fact suggests that CitiBike has gender section as an optional field to fill for unsubscribed users. And the company does a great job on collection information from subscribe users, and may be necessary to enhance data collection for unsubscribed users.
+
 <img width="1440" alt="6  User Trips by Gender (Usertype:Weekday)" src="https://user-images.githubusercontent.com/84211948/133383979-ddc48782-8fb7-4af6-9785-0d5204dba9b8.png">
 
 **7. Top Starting and Ending Locations Map**
